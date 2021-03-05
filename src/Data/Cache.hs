@@ -10,7 +10,7 @@
 --
 -- The cache is a shared mutable HashMap implemented using STM. It
 -- supports item expiration.
-
+{-# LANGUAGE Strict #-}
 module Data.Cache (
     -- * How to use this library
     -- $use
